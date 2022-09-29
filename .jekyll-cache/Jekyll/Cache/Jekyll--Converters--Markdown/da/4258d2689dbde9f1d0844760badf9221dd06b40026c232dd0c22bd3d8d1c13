@@ -1,0 +1,89 @@
+I"Ü
+<h2 class="title text-center"><span class="underlined">Our Office</span></h2>
+<div class="row d-flex align-items-center">
+
+  <div class="col-md-5 text-left">
+    <p class="">At Mahjoobi Family Dentist, we know that you have many choices when selecting a dentist in Nashua. Our office is dedicated to making your dental experience with us a great one. We strive to make our patients feel comfortable, and we know that your time is important. We work to ensure that your visit is scheduled as professionally and quickly as possible.</p>
+  </div>
+  <div class="col-md-7">
+
+    <link rel="stylesheet" type="text/css" href="/css/components/testimonials.css" />
+      <div id="office-slider" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          
+          <li data-target="#office-slider" id="slider0" data-slide-to="0" class="active"></li>
+          
+          <li data-target="#office-slider" id="slider1" data-slide-to="1"></li>
+          
+          <li data-target="#office-slider" id="slider2" data-slide-to="2"></li>
+          
+          <li data-target="#office-slider" id="slider3" data-slide-to="3"></li>
+          
+          <li data-target="#office-slider" id="slider4" data-slide-to="4"></li>
+          
+          <li data-target="#office-slider" id="slider5" data-slide-to="5"></li>
+          
+          <li data-target="#office-slider" id="slider6" data-slide-to="6"></li>
+          
+        </ul>
+
+        <div class="carousel-inner">
+          
+          <div class="item carousel-item active" style="">
+            
+            <img data-src="/master_office_images\nashua-office\Unknown.jpg" alt="" />
+            
+          </div>
+          
+          <div class="item carousel-item " style="">
+            
+            <img data-src="/master_office_images\nashua-office\Unknown-1.jpg" alt="" />
+            
+          </div>
+          
+          <div class="item carousel-item " style="">
+            
+            <img data-src="/master_office_images\nashua-office\Unknown-2.jpg" alt="" />
+            
+          </div>
+          
+          <div class="item carousel-item " style="">
+            
+            <img data-src="/master_office_images\nashua-office\Unknown-3.jpg" alt="" />
+            
+          </div>
+          
+          <div class="item carousel-item " style="">
+            
+            <img data-src="/master_office_images\nashua-office\Unknown-4.jpg" alt="" />
+            
+          </div>
+          
+          <div class="item carousel-item " style="">
+            
+            <img data-src="/master_office_images\nashua-office\Unknown-5.jpg" alt="" />
+            
+          </div>
+          
+          <div class="item carousel-item " style="">
+            
+            <img data-src="/master_office_images\nashua-office\Unknown-7.jpg" alt="" />
+            
+          </div>
+          
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#office-slider" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#office-slider" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+  </div>
+</div>
+
+:ET

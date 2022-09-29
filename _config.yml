@@ -1,0 +1,130 @@
+# Site settings
+title: Tareneh Mahjoobi, DMD. Providing general and cosmetic dentistry for Nashua, NH and surrounding areas.
+description: At Mahjoobi Family Dentist, we know that you have many choices when selecting a dentist in Nashua. Our office is dedicated to making your dental experience with us a great one. We strive to make our patients feel comfortable, and we know that your time is important. We work to ensure that your visit is scheduled as professionally and quickly as possible.
+email: "drmahjoobi@yahoo.com"  # e.g. admin@asird.org
+experience: 20
+
+url: https://nashuadentist.dentist/
+
+logourl:  /img/asird-logo.png # Your logo or avatar files
+navlogourl: /images\Mahjoobi_001b.png # Your logo or avatar files
+footer_logourl: '/images\Mahjoobi_001b.png'
+vertical_logourl:  # logo used in footer
+bg-tile:
+tos-link:
+
+authedurl: # should be blank or '/' unless customized for use with the bowtie-auth.js pswd protection
+
+stagingurl:
+productionurl:
+
+author:
+author_thumbnail:  # default author avatar
+
+# Theme additions - please update the default values if you intend to use these variables
+
+google_analytics_id:  '' # Your google analytics ID (e.g. 'UA-XXXXXXXX-X')
+google_api_key: AIzaSyCWwI6hxOqcIqYZOoVcmiCNK6Zm4uBR0CI
+sumoid:  # e.g. 'b8fe3b113e8eff21df4c245af51b205fc3a7ff5ab889892be1e98f4a50cd94a6'
+
+doctor:
+  name: Taraneh Mahjoobi, DMD
+  practicename: Taraneh Mahjoobi, DMD
+  practicetagline: Over 16 years of experience.
+  intro: Dr. Taraneh Mahjoobi has over 16 years of experience in general and cosmetic dentistry. Her mission is to make a positive difference in the lives of her patients by offering high-quality dental care. She aims to improve patient health, appearance, self-confidence and overall quality of life. Dr. Mahjoobi reviews all possible options with her patients so they will make informed decisions.
+  profile_img: /master_bio_images\nashua\Dr_Mahjoobi_Featured.png
+  education: "<p><strong>Doctor of Dental Medicine  </strong></p><p>Boston University </p><p><strong>Bachelor of Science  </strong></p><p>University of Massachusetts, Boston </p>"
+  contact:
+    company:  "Taraneh Mahjoobi, DMD"
+    address: "19 Tyler St., Suite 201"
+    city: "Nashua"
+    state: "NH"
+    zip: "03060"
+    country:  "USA"
+    phone:  (603) 880-4410  # e.g.  754-307-6990
+    fax:
+    latlng: 42.756990, -71.461151
+    twitter:                 # (e.g. 'https://twitter.com/twitter')
+    facebook:  'https://www.facebook.com/Mahjoobi-Family-Dentist-249772011732085/'         # (e.g. 'https://facebook.com/facebook')
+    yelp: 'https://www.yelp.com/biz/mahjoobi-family-dental-nashua'
+    google_reviews: 'https://goo.gl/maps/9H5DjZxQH332'
+    healthgrades: 'https://www.healthgrades.com/dentist/dr-taraneh-mahjoobi-32gty'
+    linkedin:                     # (e.g. 'https://linkedin/company/linkedin')
+    youtube:                        # (e.g. 'https://youttube.com/channel/UCovWO5keLOLcLu8WdO-ABJw')
+
+  disqus_id:           # From your Disqus account (e.g. 'bowtieexample')
+
+  addthis_id:  ''       # From your Add This account (e.g. 'ra-00000a0a00a00aaa')
+
+# Permalinks
+permalink:           /:categories/:title/
+relative_permalinks: false
+
+#gems: [jekyll-paginate]
+
+# Pagination config
+#paginate: 5
+#paginate_path: /page/:num
+
+
+#toggle future post dates back on
+future: true
+
+#compress sass
+sass:
+  style: compressed
+
+# Jekyll build/resource locations
+
+# source:  .
+# destination: ./_site
+# plugins_dir: null
+# layouts_dir: ./_layouts
+# data_dir:    ./_data
+# includes_dir: ./_includes
+
+# Jekyll Handling Reading
+include:    [] # Specify files to be included in build that may be otherwise ignored (e.g. '[.htaccess]')
+
+keep_files: [] # Files/Folders located inside the ./_site folder to be retained on build (e.g.'[.git, .svn]')
+
+# Files/Folders to be excluded from generated '_site' folder
+exclude:
+  - .gitignore
+  - .sass-cache
+
+# define collection objects
+collections:
+  sections:
+    output: true
+    permalink: /sections/:path/
+  hero-slides:
+    output: false
+  office-slides:
+    output: false
+  procedures:
+    output: true
+  procedure-categories:
+    output: true
+  gallery:
+    output: false
+  reviews:
+    output: false
+  team:
+    output: false
+  patient-docs:
+    output: false
+
+defaults:
+  - scope:
+      type: procedure-categories
+    values:
+      layout: procedure-categories
+  - scope:
+      type: pages
+    values:
+      noindex: true
+  - scope:
+      type: procedures
+    values:
+      layout: procedure
